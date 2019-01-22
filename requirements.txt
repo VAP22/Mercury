@@ -1,6 +1,6 @@
 colorama
 hashlib
-selenuim
+selenium
 optparse
 mechanize
 smtplib
