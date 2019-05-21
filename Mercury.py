@@ -31,6 +31,7 @@ from six.moves import urllib
 from selenium import webdriver
 from colorama import init, Fore, Back, Style
 from pygoogling.googling import GoogleSearch
+from uuid import getnode as get_mac
 try:
 	import re
 	import json
@@ -827,7 +828,9 @@ def webbrowserfunc():
 def mac():
 	try:
 		os.system('ifconfig - a') #For Linux Change to ifconfig -a
-		os.system('getmac')
+		macint = get_mac() #mac address in 48bit
+		machex = '%012x' % macint #mac address in hexadecimal
+		print (machex)
 		long()
 		mainmenu()
 	except KeyboardInterrupt:
