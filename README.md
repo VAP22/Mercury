@@ -18,9 +18,14 @@ git clone https://www.github.com/MetaChar/Mercury
 
 
 ```
-pip install -r requirements.txt
+chmod +x requirements.sh
 ```
 
+
+
+```
+./requirements.sh
+```
 
 
 Features
@@ -66,7 +71,7 @@ Encodes your text into hash form
 
 
 ##### Hex Encode/Decode
-Encodes and decodes hex strings 
+Encodes and decodes hex strings
 
 
 
@@ -120,7 +125,7 @@ and its somewhat glitchy on linux
 ##### Port Listen
 Listens to ports
 
-#### DOS 
+#### DOS
 dos attack via packets
 
 
