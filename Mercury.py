@@ -118,8 +118,8 @@ def long():
 def quick():
 	time.sleep(2) #Pause == 2 Secs
 def space():
-	print ' '
-	print ' '
+	print (' ')
+	print (' ')
 
 
 def agreement():
